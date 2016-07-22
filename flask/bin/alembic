@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 #!/home/wolf/project/bookfree/flask/bin/python
-=======
-#!/home/julia/bookfree/flask/bin/python3
->>>>>>> ju/master
 
 # -*- coding: utf-8 -*-
 import re
