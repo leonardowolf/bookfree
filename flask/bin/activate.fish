@@ -36,7 +36,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV "/home/wolf/project/bookfree/flask"
+=======
+set -gx VIRTUAL_ENV "/home/julia/bookfree/flask"
+>>>>>>> ju/master
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -64,7 +68,11 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         if test -n ""
             printf '%s%s' "" (set_color normal)
         else
+<<<<<<< HEAD
             printf '%s(%s%s%s) ' (set_color normal) (set_color -o white) (basename "$VIRTUAL_ENV") (set_color normal)
+=======
+            printf '%s(%s) ' (set_color normal) (basename "$VIRTUAL_ENV")
+>>>>>>> ju/master
         end
 
         # Restore the original $status
